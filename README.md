@@ -1,4 +1,4 @@
-Here’s the updated version with the name changed to **Block-Certify** and the specified technologies:  
+Here’s the updated version with **React** and **Node.js** included:  
 
 ---
 
@@ -8,7 +8,7 @@ Here’s the updated version with the name changed to **Block-Certify** and the 
 Block-Certify simplifies the process of issuing and viewing certificates using blockchain technology. Designed for institutions and organizations, it ensures efficiency, transparency, and accuracy in managing and distributing certificates. The system provides a user-friendly interface and a robust backend for secure operations.
 
 ## 🛠️ Built With
-- **Frontend**: HTML, CSS, JavaScript  
+- **Frontend**: React, HTML, CSS, JavaScript  
 - **Backend**: Node.js, Express.js  
 - **Database**: MongoDB  
 - **Blockchain Framework**: Solidity, Ethereum  
@@ -25,7 +25,15 @@ To run the project locally, follow these steps:
    ```bash
    cd frontend
    ```
-3. Open the application in your browser or local server.
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+5. Open the application in your browser at `http://localhost:3000`.
 
 ### 🔧 Backend Setup
 1. Navigate to the backend directory:
@@ -36,7 +44,12 @@ To run the project locally, follow these steps:
    ```bash
    npm install
    ```
+3. Start the backend server:
+   ```bash
+   npm start
+   ```
+4. The backend will run at `http://localhost:5000`.
 
 ---
 
-Let me know if any further adjustments are needed!
+Let me know if you'd like any more changes!
